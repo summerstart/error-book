@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/text_subject"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:text="@string/subject"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp" />
+ <LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="50dp"   
+        android:gravity="center_vertical"  
+        android:orientation="horizontal" 
+        android:layout_marginTop="20dp"
+        >  
+    <Button
+        android:id="@+id/button_Chinese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/button_Chinese" />
+
+    <Button
+        android:id="@+id/button_math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:text="@string/button_math" />
+
+    </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="50dp"
+     android:gravity="center_vertical"
+     android:orientation="horizontal"
+    android:layout_marginTop="10dp" >
+    
+
+     <Button
+         android:id="@+id/button_english"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="40dp"
+         android:text="@string/button_english" />
+
+     <Button
+         android:id="@+id/button_physics"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/button_physics" />
+ </LinearLayout>
+
+   <LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="50dp"   
+        android:gravity="center_vertical"  
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp">  
+       <Button
+        android:id="@+id/button_chemistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/button_chemistry" />
+        <Button
+        android:id="@+id/button_biology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_biology" />
+               
+       </LinearLayout>
+</LinearLayout>

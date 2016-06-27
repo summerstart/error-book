@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+   <Button
+       android:id="@+id/button_enroll"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:text="@string/button_enroll" />
+
+ <Button
+     android:id="@+id/button_login"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBaseline="@+id/button_enroll"
+     android:layout_alignBottom="@+id/button_enroll"
+     android:layout_alignParentRight="true"
+     android:layout_marginRight="22dp"
+     android:text="@string/button_login" />
+
+ <TextView
+     android:id="@+id/username"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/button_enroll"
+     android:layout_below="@+id/button_enroll"
+     android:layout_marginTop="20dp"
+     android:padding="8dp"
+     android:text="@string/username"
+     android:textColor="#000"
+     android:textSize="17sp" />
+
+ <EditText
+     android:id="@+id/usernameEdittext"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignBottom="@+id/username"
+     android:layout_alignTop="@+id/username"
+     android:layout_toRightOf="@+id/username"
+     android:background="@null"
+     android:ems="10"
+     android:hint="@string/username"
+     android:textSize="17sp" /> 
+
+
+ <EditText
+     android:id="@+id/pwdEdittext"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignBottom="@+id/pwd"
+     android:layout_alignParentRight="true"
+     android:layout_alignTop="@+id/pwd"
+     android:layout_toRightOf="@+id/button_enroll"
+     android:background="@null"
+     android:ems="10"
+     android:hint="@string/pwd"
+     android:textSize="17sp" />
+
+ <TextView
+     android:id="@+id/pwd"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/username"
+     android:layout_below="@+id/username"
+     android:layout_marginTop="24dp"
+     android:padding="8dp"
+     android:text="@string/pwd"
+     android:textColor="#000"
+     android:textSize="17sp" />
+ 
+
+ <RadioGroup
+     android:id="@+id/radGroupsex"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/pwd"
+     android:layout_centerVertical="true"
+     android:orientation="horizontal" >
+
+ </RadioGroup>
+
+ <RadioButton
+     android:id="@+id/radstudent"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignRight="@+id/button_login"
+     android:layout_below="@+id/radGroupsex"
+     android:layout_marginRight="18dp"
+     android:layout_marginTop="33dp"
+     android:text="@string/student" />
+
+ <RadioButton
+     android:id="@+id/radteacher"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBaseline="@+id/radstudent"
+     android:layout_alignBottom="@+id/radstudent"
+     android:layout_toLeftOf="@+id/usernameEdittext"
+     android:text="@string/teacher" />
+
+
+
+</RelativeLayout>
