@@ -39,6 +39,8 @@
           android:layout_marginTop="31dp"
           android:text="@string/en_pwd"
           android:textSize="17sp" />
+      
+      
 
       <EditText
           android:id="@+id/en_pwdtext"
@@ -49,16 +51,6 @@
           android:ems="10"
           android:hint="@string/en_pwd"
           android:textSize="17sp" />
-
-       <TextView
-           android:id="@+id/en_phone"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_alignLeft="@+id/en_pwd"
-           android:layout_below="@+id/en_pwd"
-           android:layout_marginTop="31dp"
-           android:text="@string/en_phone"
-           android:textSize="17sp" />
 
        <EditText
            android:id="@+id/en_phonetext"
@@ -73,48 +65,76 @@
            <requestFocus />
        </EditText>
        
-  <RadioGroup
-      android:id="@+id/radGroupclass"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_centerVertical="true"
-      android:orientation="horizontal" >
-  </RadioGroup>
+   <RadioGroup
+     android:id="@+id/radGroupsex"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerVertical="true"
+     android:orientation="horizontal" >
 
-  <RadioButton
-      android:id="@+id/en_student"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignBottom="@+id/radGroupclass"
-      android:layout_alignRight="@+id/en_phonetext"
-      android:layout_marginLeft="20dp"
-      android:text="@string/en_student" />
+     <RadioButton
+         android:id="@+id/en_student"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="18dp"
+         android:layout_marginTop="33dp"
+         android:text="@string/en_student" />
 
-  <RadioButton
-      android:id="@+id/en_teacher"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_alignBottom="@+id/radGroupclass"
-      android:layout_alignParentLeft="true"
-      android:layout_marginRight="20dp"
-      android:text="@string/en_teacher" />
+     <RadioButton
+         android:id="@+id/en_teacher"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="18dp"
+         android:layout_marginTop="33dp"
+         android:text="@string/en_teacher" />
+
+ </RadioGroup>
 
  <Button
      android:id="@+id/btn_cancle"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
-     android:layout_below="@+id/en_teacher"
-     android:layout_toRightOf="@+id/en_phone"
+     android:layout_alignRight="@+id/en_phonetext"
+     android:layout_below="@+id/radGroupsex"
+     android:layout_marginTop="50dp"
      android:text="@string/btn_cancle" />
 
  <Button
      android:id="@+id/btn_en"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
-     android:layout_alignBaseline="@+id/btn_cancle"
      android:layout_alignBottom="@+id/btn_cancle"
-     android:layout_alignRight="@+id/en_student"
-     android:layout_marginRight="47dp"
+     android:layout_marginBottom="14dp"
+     android:layout_toLeftOf="@+id/en_phonetext"
      android:text="@string/btn_en" />
+
+ <TextView
+     android:id="@+id/en_phone"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/en_pwd"
+     android:layout_alignTop="@+id/radGroupsex"
+     android:text="@string/en_phone"
+     android:textSize="17sp" />
+
+ <EditText
+     android:id="@+id/en_repwdtext"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_above="@+id/en_phonetext"
+     android:layout_alignLeft="@+id/en_phonetext"
+     android:layout_marginBottom="18dp"
+     android:ems="10"
+     android:hint="@string/en_repwd"
+     android:textSize="17sp" />
+
+ <TextView
+     android:id="@+id/en_repwd"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBottom="@+id/en_repwdtext"
+     android:layout_toLeftOf="@+id/en_repwdtext"
+     android:text="@string/en_repwd"
+     android:textSize="17sp" />
 
   </RelativeLayout>

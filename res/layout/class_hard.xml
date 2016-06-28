@@ -10,55 +10,59 @@
     tools:context=".MainActivity" >
 
    <Spinner
-       android:id="@+id/SpinnerOne"
+       android:id="@+id/Spinnerseven"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_below="@+id/btn_ok"
+       android:layout_below="@+id/right_ok"
        android:layout_centerHorizontal="true" />
 
    <TextView
-       android:id="@+id/Text_ordername"
+       android:id="@+id/Text_hard"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_alignParentLeft="true"
        android:layout_alignParentTop="true"
        android:layout_marginTop="12dp"
-       android:text="@string/Text_ordername"
+       android:text="@string/Text_hard"
        android:textSize="20sp" />
 
    <Button
-       android:id="@+id/btn_ok"
+       android:id="@+id/right_ok"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_alignBottom="@+id/Text_ordername"
-       android:layout_alignRight="@+id/SpinnerOne"
+       android:layout_alignBottom="@+id/Text_hard"
+       android:layout_alignRight="@+id/Spinnerseven"
        android:layout_marginRight="14dp"
-       android:text="@string/btn_ok"
-       android:textSize="12sp" />
- <Spinner
-       android:id="@+id/SpinnerTwo"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@+id/ok"
-       android:layout_centerHorizontal="true" />
-
-   <Button
-       android:id="@+id/ok"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignBottom="@+id/Text_master"
-       android:layout_alignRight="@+id/SpinnerTwo"
-       android:layout_marginRight="14dp"
-       android:text="@string/ok"
+       android:text="@string/right_ok"
        android:textSize="12sp" />
 
    <TextView
-       android:id="@+id/Text_master"
+       android:id="@+id/Tanalytic"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_alignLeft="@+id/SpinnerTwo"
-       android:layout_centerVertical="true"
-       android:text="@string/Text_master"
+       android:layout_alignLeft="@+id/Spinnereight"
+       android:layout_below="@+id/Spinnerseven"
+       android:layout_marginTop="70dp"
+       android:text="@string/analytic"
        android:textSize="20sp" />
 
+   <Spinner
+       android:id="@+id/Spinnereight"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/Spinnerseven"
+       android:layout_below="@+id/Tanalytic" />
+
+   <Button
+       android:id="@+id/righ_ok"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/Spinnereight"
+       android:layout_alignLeft="@+id/right_ok"
+       android:text="@string/rig_ok"
+       android:layout_marginRight="14dp"
+       android:textSize="12sp" />
+
 </RelativeLayout>
+
+

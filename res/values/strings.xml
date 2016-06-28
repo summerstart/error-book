@@ -7,13 +7,12 @@
     <string name="button_login">登录</string>
     <string name="username">用户名</string>
     <string name="pwd">密码</string>
-    <string name="ip">请输入网址</string>
-    <string name="iptext">请输入网址</string>
     <string name="teacher">老师</string>
     <string name="student">学生</string>  
     <!--注册  -->
     <string name="en_usernametext">用户名</string>
     <string name="en_pwd">密码</string>
+     <string name="en_repwd">重复密码</string>
     <string name="en_phone">电话</string>
     <string name="en_teacher">老师</string>
     <string name="en_student">学生</string> 
@@ -58,16 +57,121 @@
        <item>第七章 微分方程</item> 
     </string-array> 
        <string name="btn_ok">确定</string>
+       <string name="Text_master">掌握程度分析</string>
+     <string-array name="SpinnerTwo">  
+       <item>完全不会</item>  
+       <item>掌握较差</item>  
+       <item>基本掌握</item>  
+       <item>掌握较好</item> 
+       <item>完全掌握</item> 
+    </string-array> 
+       <string name="ok">确定</string>
       <!-- class_spot -->
-      
+       <string name="Text_knowledge">知识点</string>
+     <string-array name="SpinnerThree">  
+       <item>函数求极限</item>  
+       <item>函数求导</item>  
+       <item>函数的极值</item>  
+       <item>分部求积分法</item> 
+       <item>求定积分</item> 
+       <item>齐次方程的求解</item> 
+    </string-array> 
+       <string name="bt_ok">确定</string>
+       <string name="master">掌握程度分析</string>
+     <string-array name="Spinnerfour">  
+       <item>完全不会</item>  
+       <item>掌握较差</item>  
+       <item>基本掌握</item>  
+       <item>掌握较好</item> 
+       <item>完全掌握</item> 
+    </string-array> 
+       <string name="b_ok">确定</string>
       <!-- class_wrong -->
-      
+         <string name="Text_type">错题类型</string>
+     <string-array name="Spinnerfive">  
+       <item>选择题</item>  
+       <item>填空题</item>  
+       <item>应用题</item>  
+       <item>问答题</item> 
+       <item>综合题</item>
+    </string-array> 
+       <string name="ture_ok">确定</string>
+       <string name="Text_analytic">掌握程度分析</string>
+     <string-array name="Spinnersix">  
+       <item>完全不会</item>  
+       <item>掌握较差</item>  
+       <item>基本掌握</item>  
+       <item>掌握较好</item> 
+       <item>完全掌握</item> 
+    </string-array> 
+       <string name="tu_ok">确定</string>
       <!-- class_hard -->
-      
+        <string name="Text_hard">错题难度</string>
+     <string-array name="Spinnerseven">  
+       <item>基础题</item>  
+       <item>典型题</item>  
+       <item>难点题</item>  
+       <item>综合题</item> 
+    </string-array> 
+       <string name="right_ok">确定</string>
+       <string name="analytic">掌握程度分析</string>
+     <string-array name="Spinnereight">  
+       <item>完全不会</item>  
+       <item>掌握较差</item>  
+       <item>基本掌握</item>  
+       <item>掌握较好</item> 
+       <item>完全掌握</item> 
+    </string-array> 
+       <string name="rig_ok">确定</string>
       <!-- write_one -->
-      
-      <!-- write_more -->
-      
+        <string name="Text_Date">录入日期</string>
+        <string name="Text_Time">录入时间</string>
+        <string name="Txt_type">题目类型</string>
+       <string-array name="SpinnerNine">  
+       <item>填空题</item>  
+       <item>选择题</item>  
+       <item>应用题</item>  
+       <item>问答题</item> 
+       <item>综合题</item> 
+        </string-array> 
+    <string name="Text_Section">对应章节</string>
+      <string-array name="SpinnerTen">  
+       <item>第一章</item>  
+       <item>第二章</item>  
+       <item>第三章</item>  
+       <item>第四章</item> 
+       <item>第五章</item> 
+       <item>第六章</item> 
+       <item>第七章</item> 
+    </string-array>  
+    <string name="Text_Reason">错误原因</string>
+      <string-array name="SpinnerEleven">  
+       <item>看错了</item>  
+       <item>写错了</item>  
+       <item>已学知识的遗忘</item>  
+       <item>未掌握典型思路</item> 
+       <item>缺乏课后巩固练习</item> 
+       <item>理解能力不够</item> 
+       <item>解题思路狭隘</item> 
+    </string-array> 
+      <string name="Text_Knowledge">知识点</string>
+      <string-array name="SpinnerTwelve">  
+       <item>函数求极限</item>  
+       <item>函数求导</item>  
+       <item>函数的极值</item>  
+       <item>分部求积分法</item> 
+       <item>求定积分</item> 
+       <item>齐次方程的求解</item> 
+    </string-array> 
+     <string name="Text_True">确定</string>
+      <!-- write_one1 -->
+        <string name="Error_Text">错题正文</string>
+        <string name="Text_Error">错题正文</string>
+        <string name="Analysis_Answer">答案与分析</string>
+        <string name="Answer_Analysis">答案与分析</string>
+        <string name="Txt_Experience">心得体会</string>
+        <string name="Text_Experience">心得体会</string>
+        <string name="Text_Keep">保存</string>
       <!-- review_content -->
       
       <!-- review_set -->

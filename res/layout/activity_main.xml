@@ -75,37 +75,31 @@
      android:text="@string/pwd"
      android:textColor="#000"
      android:textSize="17sp" />
- 
 
  <RadioGroup
      android:id="@+id/radGroupsex"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:layout_alignLeft="@+id/pwd"
-     android:layout_centerVertical="true"
+     android:layout_below="@+id/pwdEdittext"
+     android:layout_marginTop="72dp"
      android:orientation="horizontal" >
 
+     <RadioButton
+         android:id="@+id/radstudent"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="18dp"
+         android:layout_marginTop="33dp"
+         android:text="@string/student" />
+
+     <RadioButton
+         android:id="@+id/radteacher"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="18dp"
+         android:layout_marginTop="33dp"
+         android:text="@string/teacher" />
  </RadioGroup>
-
- <RadioButton
-     android:id="@+id/radstudent"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignRight="@+id/button_login"
-     android:layout_below="@+id/radGroupsex"
-     android:layout_marginRight="18dp"
-     android:layout_marginTop="33dp"
-     android:text="@string/student" />
-
- <RadioButton
-     android:id="@+id/radteacher"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignBaseline="@+id/radstudent"
-     android:layout_alignBottom="@+id/radstudent"
-     android:layout_toLeftOf="@+id/usernameEdittext"
-     android:text="@string/teacher" />
-
-
 
 </RelativeLayout>
