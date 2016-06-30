@@ -39,7 +39,44 @@
         <activity 
             android:name="com.example.book.class_orderactivity"
             android:label="class_orderactivity">           
-        </activity>       
+        </activity>   
+         <activity 
+            android:name="com.example.book.class_hard"
+            android:label="class_hard">           
+        </activity>   
+         <activity 
+            android:name="com.example.book.class_knowledge"
+            android:label="class_knowledge">           
+        </activity> 
+          <activity 
+            android:name="com.example.book.class_type"
+            android:label="class_type">           
+        </activity>
+          <activity 
+            android:name="com.example.book.Input_error"
+            android:label="Input_error">           
+        </activity>
+        <!-- <activity 
+            android:name="com.example.book.input_error1"
+            android:label="Input_error1">           
+        </activity> -->
+         <activity 
+            android:name="com.example.book.review_content"
+            android:label="review_content">           
+        </activity>
+         <activity 
+            android:name="com.example.book.review_set"
+            android:label="review_set">           
+        </activity>
+         <activity 
+            android:name="com.example.book.plan"
+            android:label="plan">           
+        </activity>
+         <activity 
+            android:name="com.example.book.back"
+            android:label="back">           
+        </activity>
+         
     </application>
 
 </manifest>

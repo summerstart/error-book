@@ -163,7 +163,7 @@
        <item>求定积分</item> 
        <item>齐次方程的求解</item> 
     </string-array> 
-     <string name="Text_True">确定</string>
+     <string name="Text_True">下一步</string>
       <!-- write_one1 -->
         <string name="Error_Text">错题正文</string>
         <string name="Text_Error">错题正文</string>
@@ -179,5 +179,6 @@
       <!-- add_plan -->
       
       <!-- add_back -->
-                
+      <string name="back_view">请填写您的意见，我们将尽快改进！</string>
+         <string name="back_ok">确定</string>       
 </resources>

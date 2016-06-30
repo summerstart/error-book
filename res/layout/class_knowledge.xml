@@ -7,24 +7,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/w"
     tools:context=".MainActivity" >
-
-   <Spinner
-       android:id="@+id/SpinnerThree"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@+id/bt_ok"
-       android:layout_centerHorizontal="true" />
 
    <TextView
        android:id="@+id/Text_knowledge"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_alignParentLeft="true"
-       android:layout_alignParentTop="true"
        android:layout_marginTop="12dp"
        android:text="@string/Text_knowledge"
        android:textSize="20sp" />
+   
+    <Spinner
+        android:id="@+id/SpinnerThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Text_knowledge" />
 
    <Button
        android:id="@+id/bt_ok"
@@ -32,35 +31,37 @@
        android:layout_height="wrap_content"
        android:layout_alignBottom="@+id/Text_knowledge"
        android:layout_alignRight="@+id/SpinnerThree"
-       android:layout_marginRight="14dp"
+       android:layout_alignParentRight="true"
+       android:layout_centerHorizontal="true"
        android:text="@string/bt_ok"
        android:textSize="12sp" />
- <Spinner
-       android:id="@+id/Spinnerfour"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@+id/b_ok"
-       android:layout_centerHorizontal="true" />
+   
+       <Spinner
+        android:id="@+id/Spinnerfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/master" />
 
-   <Button
-       android:id="@+id/b_ok"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignBottom="@+id/master"
-       android:layout_alignRight="@+id/Spinnerfour"
-       android:layout_marginRight="14dp"
-       android:text="@string/b_ok"
-       android:textSize="12sp" />
+    <TextView
+        android:id="@+id/master"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+        android:layout_below="@+id/SpinnerThree"
+        android:text="@string/master"
+        android:textSize="20sp" />
 
-   <TextView
-       android:id="@+id/master"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignLeft="@+id/Spinnerfour"
-       android:layout_below="@+id/SpinnerThree"
-       android:layout_marginTop="89dp"
-       android:text="@string/master"
-       android:textSize="20sp" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/Spinnerfour"
+        android:ems="70"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
 

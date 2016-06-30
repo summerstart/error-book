@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+      android:background="@drawable/a"
     android:orientation="vertical" >
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+       
         android:layout_marginTop="20dp" >
     <TextView
           android:id="@+id/Text_Date"
@@ -34,12 +35,17 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginTop="20dp"
+          android:layout_marginLeft="50dp"
           android:text="@string/Txt_type"
           android:textSize="20sp" />
-       <Spinner
-         android:id="@+id/SpinnerNine"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content" />
+
+      <Spinner
+          android:id="@+id/SpinnerNine"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp" 
+          android:layout_marginLeft="25dp"/>
+
        </LinearLayout>
    <LinearLayout
         android:layout_width="fill_parent"
@@ -50,13 +56,16 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_marginTop="20dp"
+           android:layout_marginLeft="50dp"
            android:text="@string/Text_Section"
            android:textSize="20sp" />
 
      <Spinner
          android:id="@+id/SpinnerTen"
          android:layout_width="wrap_content"
-         android:layout_height="wrap_content" />
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp" 
+         android:layout_marginLeft="25dp" />
   </LinearLayout>
    <LinearLayout
         android:layout_width="fill_parent"
@@ -66,13 +75,16 @@
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginTop="20dp"
+         android:layout_marginLeft="50dp"
          android:text="@string/Text_Reason"
          android:textSize="20sp" />
 
       <Spinner
           android:id="@+id/SpinnerEleven"
           android:layout_width="wrap_content"
-          android:layout_height="wrap_content" />
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp" 
+          android:layout_marginLeft="25dp" />
    </LinearLayout>
    <LinearLayout
         android:layout_width="fill_parent"
@@ -82,26 +94,27 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginTop="20dp"
+          android:layout_marginLeft="50dp"
           android:text="@string/Text_Knowledge"
           android:textSize="20sp" />
 
       <Spinner
           android:id="@+id/SpinnerTwelve"
           android:layout_width="wrap_content"
-          android:layout_height="wrap_content" />
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp" 
+          android:layout_marginLeft="45dp" />
   </LinearLayout>
 
    <Button
        android:id="@+id/Text_True"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_marginLeft="100dp"
+       android:layout_marginLeft="150dp"
+       android:layout_marginTop="40dp"
        android:text="@string/Text_True"
        android:textSize="20sp" />
 
-   <DatePicker
-       android:id="@+id/datePicker1"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content" />
+ 
 
 </LinearLayout>

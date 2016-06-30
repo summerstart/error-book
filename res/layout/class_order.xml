@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/w"
     tools:context=".MainActivity" >
 
    <Spinner
@@ -26,39 +27,42 @@
        android:text="@string/Text_ordername"
        android:textSize="20sp" />
 
-   <Button
-       android:id="@+id/btn_ok"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignBottom="@+id/Text_ordername"
-       android:layout_alignRight="@+id/SpinnerOne"
-       android:layout_marginRight="14dp"
-       android:text="@string/btn_ok"
-       android:textSize="12sp" />
- <Spinner
-       android:id="@+id/SpinnerTwo"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@+id/ok"
-       android:layout_centerHorizontal="true" />
-
-   <Button
-       android:id="@+id/ok"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignBottom="@+id/Text_master"
-       android:layout_alignRight="@+id/SpinnerTwo"
-       android:layout_marginRight="14dp"
-       android:text="@string/ok"
-       android:textSize="12sp" />
-
    <TextView
        android:id="@+id/Text_master"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_alignLeft="@+id/SpinnerTwo"
-       android:layout_centerVertical="true"
+       android:layout_alignLeft="@+id/SpinnerOne"
+       android:layout_below="@+id/SpinnerOne"
+       android:layout_alignParentLeft="true"
        android:text="@string/Text_master"
        android:textSize="20sp" />
+
+   <Button
+       android:id="@+id/btn_ok"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/Text_ordername"
+       android:layout_alignBottom="@+id/Text_ordername"
+       android:layout_alignParentRight="true"
+       android:text="@string/btn_ok"
+       android:textSize="12sp" />
+
+   <Spinner
+       android:id="@+id/SpinnerTwo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/Text_master" />
+
+   <EditText
+       android:id="@+id/editText1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/SpinnerTwo"
+       android:ems="70"
+       android:inputType="textMultiLine" >
+
+       <requestFocus />
+   </EditText>
 
 </RelativeLayout>

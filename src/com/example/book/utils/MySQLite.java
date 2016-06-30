@@ -11,7 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class MySQLite extends SQLiteOpenHelper {
 
-	final String CREAT_RABLE_SQL = "create table in_error(in_time date primary key autoincrement ,time_type," +
+	final String CREAT_RABLE_SQL = "create table in_error(in_time date primary key,time_type," +
 			"zhangjie,error_reason,error_zhengwen,answer,tihui,subject)";
 
 	public MySQLite(Context context, String name, int version) {

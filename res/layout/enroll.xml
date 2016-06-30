@@ -1,140 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
-
-      <TextView
+    android:background="@drawable/w"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+        <TextView
           android:id="@+id/en_usernametext"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_alignParentLeft="true"
-          android:layout_alignParentTop="true"
-          android:layout_marginLeft="20dp"
+          android:layout_marginLeft="45dp"
           android:layout_marginTop="20dp"
           android:text="@string/en_usernametext"
           android:textSize="17sp" />
-
-      <EditText
+        <EditText
           android:id="@+id/en_usernameeedit"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_alignBaseline="@+id/en_usernametext"
-          android:layout_alignBottom="@+id/en_usernametext"
-          android:layout_alignParentRight="true"
           android:layout_marginRight="16dp"
+          android:layout_marginTop="20dp"
           android:hint="@string/en_usernametext"
           android:ems="10"
           android:textSize="17sp" />
-
-      <TextView
+        
+          </LinearLayout>
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+         <TextView
           android:id="@+id/en_pwd"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_alignLeft="@+id/en_usernametext"
-          android:layout_below="@+id/en_usernameeedit"
-          android:layout_marginTop="31dp"
+          android:layout_marginLeft="45dp"
+          android:layout_marginTop="7dp"
           android:text="@string/en_pwd"
           android:textSize="17sp" />
-      
-      
-
-      <EditText
+       <EditText
           android:id="@+id/en_pwdtext"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:layout_alignBottom="@+id/en_pwd"
-          android:layout_alignLeft="@+id/en_usernameeedit"
+          android:layout_marginTop="7dp"
+          android:layout_marginLeft="12dp"
           android:ems="10"
           android:hint="@string/en_pwd"
           android:textSize="17sp" />
-
-       <EditText
+       
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+      <TextView
+        android:id="@+id/en_repwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="7dp"
+        android:text="@string/en_repwd"
+         android:textSize="17sp" />
+      <EditText
+           android:id="@+id/en_repwdtext"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="7dp"
+           android:ems="10"
+           android:hint="@string/en_repwd"
+           android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+       <TextView
+     android:id="@+id/en_phone"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="45dp"
+     android:layout_marginTop="7dp"
+     android:text="@string/en_phone"
+     android:textSize="17sp" />
+      <EditText
            android:id="@+id/en_phonetext"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:layout_alignBottom="@+id/en_phone"
-           android:layout_alignLeft="@+id/en_pwdtext"
+           android:layout_marginLeft="12dp"
            android:ems="10"
            android:hint="@string/en_phone"
-           android:textSize="17sp" >
-
-           <requestFocus />
-       </EditText>
-       
-   <RadioGroup
-     android:id="@+id/radGroupsex"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_centerVertical="true"
-     android:orientation="horizontal" >
+           android:textSize="17sp" />
+   </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp" >
+      
+      <RadioGroup
+         android:id="@+id/radGroupsex"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:orientation="horizontal" >
 
      <RadioButton
          android:id="@+id/en_student"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_marginRight="18dp"
-         android:layout_marginTop="33dp"
+         android:layout_marginLeft="60dp"
+         android:layout_marginTop="20dp"
          android:text="@string/en_student" />
 
      <RadioButton
          android:id="@+id/en_teacher"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_marginRight="18dp"
-         android:layout_marginTop="33dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="20dp"
          android:text="@string/en_teacher" />
 
  </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+   <Button
+        android:id="@+id/btn_en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:text="@string/btn_en" />
+   <Button
+         android:id="@+id/btn_cancle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="60dp"
+         android:text="@string/btn_cancle" />     
+   
+   </LinearLayout>
+   </LinearLayout>
 
- <Button
-     android:id="@+id/btn_cancle"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignRight="@+id/en_phonetext"
-     android:layout_below="@+id/radGroupsex"
-     android:layout_marginTop="50dp"
-     android:text="@string/btn_cancle" />
+     
+      
 
- <Button
-     android:id="@+id/btn_en"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignBottom="@+id/btn_cancle"
-     android:layout_marginBottom="14dp"
-     android:layout_toLeftOf="@+id/en_phonetext"
-     android:text="@string/btn_en" />
+      
+       
 
- <TextView
-     android:id="@+id/en_phone"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignLeft="@+id/en_pwd"
-     android:layout_alignTop="@+id/radGroupsex"
-     android:text="@string/en_phone"
-     android:textSize="17sp" />
 
- <EditText
-     android:id="@+id/en_repwdtext"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_above="@+id/en_phonetext"
-     android:layout_alignLeft="@+id/en_phonetext"
-     android:layout_marginBottom="18dp"
-     android:ems="10"
-     android:hint="@string/en_repwd"
-     android:textSize="17sp" />
+ 
 
- <TextView
-     android:id="@+id/en_repwd"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignBottom="@+id/en_repwdtext"
-     android:layout_toLeftOf="@+id/en_repwdtext"
-     android:text="@string/en_repwd"
-     android:textSize="17sp" />
 
-  </RelativeLayout>

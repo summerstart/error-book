@@ -13,7 +13,7 @@ public class class_type extends Activity {
 	    protected void onCreate(Bundle savedInstanceState) {
 	 // TODO Auto-generated method stub
 	 super.onCreate(savedInstanceState);
-	 setContentView(R.layout.class_order);
+	 setContentView(R.layout.class_type);
 	 
 	// 2.通过findViewById的方法获取控件组件
 	 btnDO = (Button) findViewById(R.id.ture_ok);
