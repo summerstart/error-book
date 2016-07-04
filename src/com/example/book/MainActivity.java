@@ -24,6 +24,7 @@ import android.widget.Toast;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.text.Spannable;
+import android.text.method.PasswordTransformationMethod;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
@@ -47,6 +48,7 @@ public class MainActivity extends Activity  {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);	
 		setContentView(R.layout.activity_main);
+		//password.setTransformationMethod(PasswordTransformationMethod.getInstance());
 		findViews();
 	}
 	private void findViews() {

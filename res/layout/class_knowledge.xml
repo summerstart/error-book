@@ -26,21 +26,21 @@
         android:layout_below="@+id/Text_knowledge" />
 
    <Button
-       android:id="@+id/bt_ok"
+       android:id="@+id/btreturn1"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_alignBottom="@+id/Text_knowledge"
        android:layout_alignRight="@+id/SpinnerThree"
        android:layout_alignParentRight="true"
        android:layout_centerHorizontal="true"
-       android:text="@string/bt_ok"
+       android:text="@string/btreturn1"
        android:textSize="12sp" />
    
        <Spinner
         android:id="@+id/Spinnerfour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_centerHorizontal="true"             
         android:layout_below="@+id/master" />
 
     <TextView
@@ -52,16 +52,25 @@
         android:text="@string/master"
         android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-       android:layout_below="@+id/Spinnerfour"
-        android:ems="70"
-        android:inputType="textMultiLine" >
+    
 
-        <requestFocus />
-    </EditText>
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Text_knowledge"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/master"
+        android:text="@string/bt_ok"
+        android:textSize="12sp" />
+
+      <ListView
+          android:id="@+id/list"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/Spinnerfour" >
+            </ListView>
+
 
 </RelativeLayout>
 

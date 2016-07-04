@@ -34,18 +34,9 @@
        android:layout_alignBottom="@+id/Text_hard"
        android:layout_alignRight="@+id/Spinnerseven"
        android:layout_marginRight="14dp"
+       android:layout_alignParentRight="true"
        android:text="@string/right_ok"
        android:textSize="12sp" />
-
-   <TextView
-       android:id="@+id/Tanalytic"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignLeft="@+id/Spinnereight"
-       android:layout_below="@+id/Spinnerseven"
-       android:layout_marginTop="70dp"
-       android:text="@string/analytic"
-       android:textSize="20sp" />
 
    <Spinner
        android:id="@+id/Spinnereight"
@@ -58,11 +49,29 @@
        android:id="@+id/righ_ok"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_above="@+id/Spinnereight"
-       android:layout_alignLeft="@+id/right_ok"
+       android:layout_alignBaseline="@+id/right_ok"
+       android:layout_alignBottom="@+id/right_ok"
+       android:layout_toLeftOf="@+id/right_ok"
        android:text="@string/rig_ok"
-       android:layout_marginRight="14dp"
        android:textSize="12sp" />
+
+   <TextView
+       android:id="@+id/Tanalytic"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:layout_below="@+id/Spinnerseven"
+       android:text="@string/analytic"
+       android:textSize="20sp" />
+   
+   <ListView
+          android:id="@id/android:list"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/Spinnereight" >
+            </ListView>
+
+
 
 </RelativeLayout>
 

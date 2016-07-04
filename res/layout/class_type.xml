@@ -33,35 +33,45 @@
        android:layout_alignBottom="@+id/Text_type"
        android:layout_alignRight="@+id/Spinnerfive"
        android:layout_marginRight="14dp"
+       android:layout_alignParentRight="true"
        android:text="@string/ture_ok"
        android:textSize="12sp" />
 
- <Spinner
-       android:id="@+id/Spinnersix"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@+id/tu_ok"
-       android:layout_centerHorizontal="true" />
 
    <Button
        android:id="@+id/tu_ok"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_alignBottom="@+id/Text_analytic"
-       android:layout_alignRight="@+id/Spinnersix"
-       android:layout_marginRight="14dp"
+       android:layout_alignBaseline="@+id/ture_ok"
+       android:layout_alignBottom="@+id/ture_ok"
+       android:layout_toLeftOf="@+id/ture_ok"
        android:text="@string/tu_ok"
        android:textSize="12sp" />
+
+   <Spinner
+       android:id="@+id/Spinnersix"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/Text_analytic" />
 
    <TextView
        android:id="@+id/Text_analytic"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:layout_alignLeft="@+id/Spinnersix"
        android:layout_below="@+id/Spinnerfive"
-       android:layout_marginTop="70dp"
+       android:layout_marginTop="21dp"
        android:text="@string/Text_analytic"
        android:textSize="20sp" />
+
+   <ListView
+       android:id="@id/android:list"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+    
+       android:layout_below="@+id/Spinnersix" >
+
+   </ListView>
 
 </RelativeLayout>
 

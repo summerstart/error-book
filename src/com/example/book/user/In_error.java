@@ -12,12 +12,13 @@ public class In_error  implements Serializable {
 	private String texterror;
 	private String experience;
 	private String analysis;
+	private String text;
 	public In_error() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	public In_error(String date, String time, String type, String section,String reason,String knowledge,String texterror
-			,String experience,String analysis) {
+			,String experience,String analysis,String text) {
 		super();
 		this.date = date;
 		this.time = time;
@@ -28,6 +29,7 @@ public class In_error  implements Serializable {
 		this.texterror=texterror;
 		this.experience=experience;
 		this.analysis=analysis;
+		this.setText(text);
 	}
 	public String getDate() {
 		return date;
@@ -83,11 +85,18 @@ public class In_error  implements Serializable {
 	public void setAnalysis(String analysis) {
 		this.analysis = analysis;
 	}
+	public String getText() {
+		return text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
 	@Override
 	public String toString() {
 		return "user [date=" + date + ", time=" + time + ", type="
 				+ type + ", section=" + section + ", reason=" + reason +
 				", knowledge=" + knowledge +", texterror=" + texterror +
-				", experience=" + experience +", analysis=" + analysis + "]";
+				", experience=" + experience +", analysis=" + analysis + ", text=" + text +"]";
 	}
+	
 }

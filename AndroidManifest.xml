@@ -56,27 +56,34 @@
             android:name="com.example.book.Input_error"
             android:label="Input_error">           
         </activity>
-        <!-- <activity 
-            android:name="com.example.book.input_error1"
-            android:label="Input_error1">           
-        </activity> -->
          <activity 
-            android:name="com.example.book.review_content"
-            android:label="review_content">           
+            android:name="com.example.book.Input_error1"
+            android:label="Input_error1">           
+        </activity>
+         <activity 
+            android:name="com.example.book.evalution"
+            android:label="evalution">           
         </activity>
          <activity 
             android:name="com.example.book.review_set"
             android:label="review_set">           
         </activity>
          <activity 
-            android:name="com.example.book.plan"
-            android:label="plan">           
+            android:name="com.example.book.Myplan"
+            android:label="Myplan">           
         </activity>
          <activity 
             android:name="com.example.book.back"
             android:label="back">           
         </activity>
-         
+          <activity 
+            android:name="com.example.book.clock"
+            android:label="clock">           
+        </activity>
+         <activity 
+            android:name="com.example.book.start"
+            android:label="start">           
+        </activity>
     </application>
 
 </manifest>

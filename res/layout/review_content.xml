@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,13 +6,198 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/aa"
     tools:context=".MainActivity" >
+    
 
-   <Spinner
-       android:id="@+id/SpinnerOne"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@+id/btn_ok"
-       android:layout_centerHorizontal="true" />
+ <TextView
+      android:id="@+id/Text_content"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:text="@string/Text_content"
+      android:textSize="23sp" />
+
  
-</RelativeLayout>
+  <LinearLayout
+       android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+  <TextView
+      android:id="@+id/login_date"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:text="@string/login_date"
+      android:layout_marginTop="35dp"
+      android:textSize="20sp" />
+          <EditText
+          android:id="@+id/radio_year"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_marginTop="30dp"
+             android:layout_marginLeft="10dp"
+          android:ems="6"
+          android:hint="@string/radio_year"
+          android:textSize="15sp" />  
+   </LinearLayout>
+     <LinearLayout
+       android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+  <TextView
+      android:id="@+id/login_time"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:text="@string/login_time"
+      android:layout_marginTop="65dp"
+      android:textSize="20sp" />
+     <EditText
+          android:id="@+id/radio_date"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_marginTop="60dp"
+             android:layout_marginLeft="10dp"
+          android:ems="6"
+          android:hint="@string/radio_date"
+          android:textSize="15sp" />  
+           </LinearLayout>
+<LinearLayout
+       android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+  <TextView
+      android:id="@+id/title_type"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:text="@string/title_type"
+      android:layout_marginTop="95dp"
+      android:textSize="20sp" />
+  <Spinner
+      android:id="@+id/Spinnerthirty"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/Text_content"
+       android:layout_marginTop="95dp"
+      android:layout_marginRight="60dp"
+      android:layout_below="@+id/title_type" />
+</LinearLayout>
+<LinearLayout
+       android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<TextView
+      android:id="@+id/title_chapter"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:text="@string/title_chapter"
+      android:layout_marginTop="125dp"
+      
+      android:textSize="20sp" />
+  <Spinner
+      android:id="@+id/Spinnerfourteen"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/Text_content"
+       android:layout_marginTop="125dp"
+      android:layout_marginRight="60dp"
+      android:layout_below="@+id/title_chapter" />
+  </LinearLayout>
+  <LinearLayout
+       android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+  <TextView
+      android:id="@+id/error_Reason"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:text="@string/error_Reason"
+      android:layout_marginTop="155dp"
+      
+      android:textSize="20sp" />
+  <Spinner
+      android:id="@+id/Spinnerfifteen"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/Text_content"
+       android:layout_marginTop="155dp"
+      android:layout_marginRight="60dp"
+      android:layout_below="@+id/error_Reason" />
+   </LinearLayout>
+     <LinearLayout
+       android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+  <TextView
+      android:id="@+id/title_Knowledge"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:text="@string/title_Knowledge"
+      android:layout_marginTop="185dp"
+      android:textSize="20sp" />
+  <Spinner
+      android:id="@+id/Spinnersixteen"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/Text_content"
+       android:layout_marginTop="185dp"
+     
+      android:layout_below="@+id/title_Knowledge" />
+     </LinearLayout>
+     <TextView
+      android:id="@+id/Text_number"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:text="@string/Text_number"
+      android:layout_marginTop="235dp"
+      android:textSize="23sp" />
+         <EditText
+          android:id="@+id/en_pwdtext"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_marginTop="260dp"
+             android:layout_marginLeft="90dp"
+          android:ems="3"
+          android:hint="@string/radio_number"
+          android:textSize="20sp" />  
+      <TextView
+      android:id="@+id/collate_direction"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:text="@string/collate_direction"
+      android:layout_marginTop="305dp"
+      android:textSize="23sp" />
+      <RadioGroup
+     
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:layout_marginTop="335dp"
+     android:orientation="horizontal" >
+ <RadioButton
+      android:id="@+id/order_rise"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      
+      android:layout_marginLeft="50dp"
+      android:text="@string/order_rise" 
+      />
+
+  <RadioButton
+      android:id="@+id/order_down"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    
+      android:layout_marginLeft="10dp"
+      android:text="@string/order_down" />
+  </RadioGroup>
+   <Button
+     android:id="@+id/rigs_start"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/en_teacher"
+     android:layout_toRightOf="@+id/en_phone"
+     android:layout_marginTop="375dp"
+      android:layout_marginLeft="90dp"
+     android:text="@string/rigs_start" />
+  </RelativeLayout>

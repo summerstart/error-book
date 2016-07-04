@@ -52,6 +52,7 @@ public class Input_error extends Activity {
 	private Spinner Knowledge; 
 	private Spinner Type;
 	Button  bt_ok;
+	private EditText texterror;
    private final static String TAG="TimeDate";  
        //获取日期格式器对象  
     DateFormat fmtDate = new java.text.SimpleDateFormat("yyyy-MM-dd");  
@@ -105,6 +106,8 @@ public class Input_error extends Activity {
         Reason=(Spinner) findViewById(R.id.SpinnerEleven);
         Knowledge=(Spinner) findViewById(R.id.SpinnerTwelve);
         bt_ok=(Button) findViewById(R.id.Text_True);
+        
+        texterror=(EditText) findViewById(R.id.text_content);
       
         txtDate=(TextView) findViewById(R.id.Text_Date);
         txtTime=(TextView) findViewById(R.id.Text_Time);
@@ -121,16 +124,17 @@ public class Input_error extends Activity {
  					bt_ok.setOnClickListener(new OnClickListener() {
  						public void onClick(View v) {
  							//String date=Date.getText().toString().trim();
- 							//String time=Time.getText().toString().trim();
+ 							String text=texterror.getText().toString().trim();
  							String type=(Type).getSelectedItem().toString().trim();
  							String section=Section.getSelectedItem().toString().trim();
  							String reason=Reason.getSelectedItem().toString().trim();
  							String knowledge=Knowledge.getSelectedItem().toString().trim();
- 							Log.i("TAG",type+"_"+section+"_"+reason+"_"+knowledge+"_");
+ 							Log.i("TAG",type+"_"+section+"_"+reason+"_"+knowledge+"_"+text);
  							error_service eService=new error_service(Input_error.this);
  							In_error error=new In_error();
  							//error.setDate(date);
  							//error.setTime(time);
+ 							error.setText(text);
  							error.setSection(section);
  							error.setReason(reason);
  							error.setType(type);
@@ -229,6 +233,7 @@ public class Input_error extends Activity {
 		TextView Knowledge;
 		TextView Type;
 		Button  bt_ok;
+		EditText text;
 		Date=(TextView) findViewById(R.id.Text_Date);
 		Time=(TextView) findViewById(R.id.Text_Time);
 		Section=(TextView) findViewById(R.id.Text_Section);
@@ -236,39 +241,13 @@ public class Input_error extends Activity {
 		Knowledge=(TextView) findViewById(R.id.Text_Knowledge);
 		Type=(TextView) findViewById(R.id.Txt_type);
 		bt_ok=(Button) findViewById(R.id.Text_True);
+		text=(EditText) findViewById(R.id.text_content);
 	}
     private Button.OnClickListener Input_error1 = new Button.OnClickListener(){
     	
 		public void onClick(View v){
-	/*	  Log.i("xxxxx", "我滴天呀");
-		            findViews();		
-					//String date=Date.getText().toString().trim();
-					//String time=Time.getText().toString().trim();
-					String type=(Type).getSelectedItem().toString().trim();
-					String section=Section.getSelectedItem().toString().trim();
-					String reason=Reason.getSelectedItem().toString().trim();
-					String knowledge=Knowledge.getSelectedItem().toString().trim();
-					Log.i("TAG",type+"_"+section+"_"+reason+"_"+knowledge+"_");
-					error_service eService=new error_service(Input_error.this);
-					In_error error=new In_error();
-					//error.setDate(date);
-					//error.setTime(time);
-					error.setSection(section);
-					error.setReason(reason);
-					error.setType(type);
-					error.setKnowledge(knowledge);
-					error.setDate(txtDate.getText().toString());
-					error.setTime(txtTime.getText().toString());
-					eService.entering(error);
-					System.out.print("rrrrrr");
-					Toast.makeText(Input_error.this, "保存成功", Toast.LENGTH_LONG).show();
-				
 			
-			Intent intent=new Intent();
-			intent.setClass(Input_error.this,Input_error1.class);
-			startActivity(intent);
-			//MainActivity.this.finish();
-*/		}
+		}
 		
 	};
 	private Spinner.OnItemSelectedListener spnPreferencespotsListener = new Spinner.OnItemSelectedListener() {

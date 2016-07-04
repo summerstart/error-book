@@ -17,10 +17,14 @@ public final class R {
         public static final int SpinnerTwelve=0x7f06000b;
         public static final int SpinnerTwo=0x7f060001;
         public static final int Spinnereight=0x7f060007;
+        public static final int Spinnerfifteen=0x7f06000e;
         public static final int Spinnerfive=0x7f060004;
         public static final int Spinnerfour=0x7f060003;
+        public static final int Spinnerfourteen=0x7f06000d;
         public static final int Spinnerseven=0x7f060006;
         public static final int Spinnersix=0x7f060005;
+        public static final int Spinnersixteen=0x7f06000f;
+        public static final int Spinnerthirty=0x7f06000c;
     }
     public static final class attr {
     }
@@ -36,129 +40,158 @@ public final class R {
     }
     public static final class drawable {
         public static final int a=0x7f020000;
-        public static final int b=0x7f020001;
-        public static final int c=0x7f020002;
-        public static final int d=0x7f020003;
-        public static final int e=0x7f020004;
-        public static final int f=0x7f020005;
-        public static final int g=0x7f020006;
-        public static final int h=0x7f020007;
-        public static final int i=0x7f020008;
-        public static final int ic_launcher=0x7f020009;
-        public static final int j=0x7f02000a;
-        public static final int k=0x7f02000b;
-        public static final int l=0x7f02000c;
-        public static final int m=0x7f02000d;
-        public static final int n=0x7f02000e;
-        public static final int o=0x7f02000f;
-        public static final int p=0x7f020010;
-        public static final int q=0x7f020011;
-        public static final int r=0x7f020012;
-        public static final int s=0x7f020013;
-        public static final int t=0x7f020014;
-        public static final int u=0x7f020015;
-        public static final int v=0x7f020016;
-        public static final int w=0x7f020017;
-        public static final int y=0x7f020018;
+        public static final int aa=0x7f020001;
+        public static final int b=0x7f020002;
+        public static final int c=0x7f020003;
+        public static final int d=0x7f020004;
+        public static final int e=0x7f020005;
+        public static final int f=0x7f020006;
+        public static final int g=0x7f020007;
+        public static final int h=0x7f020008;
+        public static final int i=0x7f020009;
+        public static final int ic_launcher=0x7f02000a;
+        public static final int j=0x7f02000b;
+        public static final int k=0x7f02000c;
+        public static final int l=0x7f02000d;
+        public static final int m=0x7f02000e;
+        public static final int n=0x7f02000f;
+        public static final int o=0x7f020010;
+        public static final int p=0x7f020011;
+        public static final int q=0x7f020012;
+        public static final int r=0x7f020013;
+        public static final int s=0x7f020014;
+        public static final int t=0x7f020015;
+        public static final int u=0x7f020016;
+        public static final int v=0x7f020017;
+        public static final int w=0x7f020018;
+        public static final int y=0x7f020019;
     }
     public static final class id {
-        public static final int Analysis_Answer=0x7f090042;
-        public static final int Answer_Analysis=0x7f090044;
-        public static final int Error_Text=0x7f090040;
-        public static final int SpinnerEleven=0x7f09003c;
-        public static final int SpinnerNine=0x7f090038;
-        public static final int SpinnerOne=0x7f090017;
-        public static final int SpinnerTen=0x7f09003a;
+        public static final int Analysis_Answer=0x7f090047;
+        public static final int Answer_Analysis=0x7f090049;
+        public static final int Error_Text=0x7f090045;
+        public static final int SpinnerEleven=0x7f09003f;
+        public static final int SpinnerNine=0x7f09003b;
+        public static final int SpinnerOne=0x7f09001c;
+        public static final int SpinnerTen=0x7f09003d;
         public static final int SpinnerThree=0x7f090013;
-        public static final int SpinnerTwelve=0x7f09003e;
-        public static final int SpinnerTwo=0x7f09001b;
-        public static final int Spinnereight=0x7f090010;
-        public static final int Spinnerfive=0x7f09001c;
+        public static final int SpinnerTwelve=0x7f090041;
+        public static final int SpinnerTwo=0x7f09001e;
+        public static final int Spinnereight=0x7f09000f;
+        public static final int Spinnerfifteen=0x7f090071;
+        public static final int Spinnerfive=0x7f09001f;
         public static final int Spinnerfour=0x7f090015;
+        public static final int Spinnerfourteen=0x7f09006f;
         public static final int Spinnerseven=0x7f09000c;
-        public static final int Spinnersix=0x7f09001f;
-        public static final int Tanalytic=0x7f09000f;
-        public static final int TextView=0x7f090055;
-        public static final int Text_Date=0x7f090035;
-        public static final int Text_Error=0x7f090041;
-        public static final int Text_Experience=0x7f090043;
-        public static final int Text_Keep=0x7f090046;
-        public static final int Text_Knowledge=0x7f09003d;
-        public static final int Text_Reason=0x7f09003b;
-        public static final int Text_Section=0x7f090039;
-        public static final int Text_Time=0x7f090036;
-        public static final int Text_True=0x7f09003f;
-        public static final int Text_add=0x7f090054;
-        public static final int Text_analytic=0x7f090021;
-        public static final int Text_classify=0x7f090047;
+        public static final int Spinnersix=0x7f090023;
+        public static final int Spinnersixteen=0x7f090073;
+        public static final int Spinnerthirty=0x7f09006d;
+        public static final int Tanalytic=0x7f090010;
+        public static final int Text_Date=0x7f090038;
+        public static final int Text_Error=0x7f090046;
+        public static final int Text_Experience=0x7f090048;
+        public static final int Text_Keep=0x7f09004b;
+        public static final int Text_Knowledge=0x7f090040;
+        public static final int Text_Reason=0x7f09003e;
+        public static final int Text_Section=0x7f09003c;
+        public static final int Text_Time=0x7f090039;
+        public static final int Text_True=0x7f090044;
+        public static final int Text_add=0x7f09005a;
+        public static final int Text_analytic=0x7f090024;
+        public static final int Text_classify=0x7f09004d;
+        public static final int Text_content=0x7f090067;
         public static final int Text_hard=0x7f09000e;
         public static final int Text_knowledge=0x7f090012;
-        public static final int Text_master=0x7f09001a;
+        public static final int Text_master=0x7f09001d;
+        public static final int Text_number=0x7f090074;
         public static final int Text_ordername=0x7f090019;
-        public static final int Text_review=0x7f09004f;
-        public static final int Text_type=0x7f09001e;
-        public static final int Text_write=0x7f09004c;
-        public static final int Txt_Experience=0x7f090045;
-        public static final int Txt_type=0x7f090037;
-        public static final int action_settings=0x7f090062;
+        public static final int Text_review=0x7f090055;
+        public static final int Text_type=0x7f090021;
+        public static final int Text_write=0x7f090052;
+        public static final int Txt_Experience=0x7f09004a;
+        public static final int Txt_type=0x7f09003a;
+        public static final int action_settings=0x7f09007e;
+        public static final int analogClock=0x7f09007b;
         public static final int back_ok=0x7f09000b;
         public static final int back_view=0x7f090009;
-        public static final int bt_ok=0x7f090014;
-        public static final int btn_back=0x7f090052;
-        public static final int btn_cancle=0x7f090034;
-        public static final int btn_content=0x7f090051;
-        public static final int btn_en=0x7f090033;
-        public static final int btn_hard=0x7f090049;
-        public static final int btn_more=0x7f09004d;
-        public static final int btn_ok=0x7f090018;
-        public static final int btn_one=0x7f09004e;
-        public static final int btn_order=0x7f090048;
-        public static final int btn_plan=0x7f090053;
-        public static final int btn_set=0x7f090050;
-        public static final int btn_spot=0x7f09004b;
-        public static final int btn_wrong=0x7f09004a;
-        public static final int button_Chinese=0x7f090023;
-        public static final int button_biology=0x7f090028;
-        public static final int button_chemistry=0x7f090027;
-        public static final int button_english=0x7f090025;
+        public static final int bt_ok=0x7f090017;
+        public static final int btn_back=0x7f090058;
+        public static final int btn_cancle=0x7f090037;
+        public static final int btn_content=0x7f090057;
+        public static final int btn_en=0x7f090036;
+        public static final int btn_hard=0x7f09004f;
+        public static final int btn_more=0x7f090053;
+        public static final int btn_ok=0x7f09001b;
+        public static final int btn_one=0x7f090054;
+        public static final int btn_order=0x7f09004e;
+        public static final int btn_plan=0x7f090059;
+        public static final int btn_set=0x7f090056;
+        public static final int btn_spot=0x7f090051;
+        public static final int btn_wrong=0x7f090050;
+        public static final int btnqd=0x7f09007d;
+        public static final int btnqdtx=0x7f090065;
+        public static final int btnreturn=0x7f090066;
+        public static final int btnreturn1=0x7f09007a;
+        public static final int btreturn1=0x7f090014;
+        public static final int button_Chinese=0x7f090026;
+        public static final int button_biology=0x7f09002b;
+        public static final int button_chemistry=0x7f09002a;
+        public static final int button_english=0x7f090028;
         public static final int button_enroll=0x7f090000;
         public static final int button_login=0x7f090001;
-        public static final int button_math=0x7f090024;
-        public static final int button_physics=0x7f090026;
+        public static final int button_math=0x7f090027;
+        public static final int button_physics=0x7f090029;
+        public static final int collate_direction=0x7f090075;
+        public static final int digitalClock=0x7f09007c;
         public static final int editText1=0x7f09000a;
-        public static final int editText10=0x7f09005e;
-        public static final int editText11=0x7f09005f;
-        public static final int editText12=0x7f090060;
-        public static final int editText13=0x7f090061;
-        public static final int editText2=0x7f090056;
-        public static final int editText3=0x7f090057;
-        public static final int editText4=0x7f090058;
-        public static final int editText5=0x7f090059;
-        public static final int editText6=0x7f09005a;
-        public static final int editText7=0x7f09005b;
-        public static final int editText8=0x7f09005c;
+        public static final int editText10=0x7f09005c;
+        public static final int editText2=0x7f090064;
+        public static final int editText3=0x7f090063;
+        public static final int editText4=0x7f090062;
+        public static final int editText5=0x7f090061;
+        public static final int editText6=0x7f090060;
+        public static final int editText7=0x7f09005f;
+        public static final int editText8=0x7f09005e;
         public static final int editText9=0x7f09005d;
-        public static final int en_phone=0x7f09002f;
-        public static final int en_phonetext=0x7f090030;
-        public static final int en_pwd=0x7f09002b;
-        public static final int en_pwdtext=0x7f09002c;
-        public static final int en_repwd=0x7f09002d;
-        public static final int en_repwdtext=0x7f09002e;
-        public static final int en_student=0x7f090031;
-        public static final int en_teacher=0x7f090032;
-        public static final int en_usernameeedit=0x7f09002a;
-        public static final int en_usernametext=0x7f090029;
+        public static final int en_phone=0x7f090032;
+        public static final int en_phonetext=0x7f090033;
+        public static final int en_pwd=0x7f09002e;
+        public static final int en_pwdtext=0x7f09002f;
+        public static final int en_repwd=0x7f090030;
+        public static final int en_repwdtext=0x7f090031;
+        public static final int en_student=0x7f090034;
+        public static final int en_teacher=0x7f090035;
+        public static final int en_usernameeedit=0x7f09002d;
+        public static final int en_usernametext=0x7f09002c;
+        public static final int error_Reason=0x7f090070;
+        public static final int item_list=0x7f09004c;
+        public static final int list=0x7f090018;
+        public static final int login_date=0x7f090068;
+        public static final int login_time=0x7f09006a;
         public static final int master=0x7f090016;
+        public static final int order_down=0x7f090077;
+        public static final int order_rise=0x7f090076;
         public static final int pwd=0x7f090005;
         public static final int pwdEdittext=0x7f090004;
         public static final int radGroupsex=0x7f090006;
+        public static final int radio_date=0x7f09006b;
+        public static final int radio_year=0x7f090069;
         public static final int radstudent=0x7f090007;
         public static final int radteacher=0x7f090008;
+        public static final int relativeLayout1=0x7f09005b;
         public static final int righ_ok=0x7f090011;
         public static final int right_ok=0x7f09000d;
-        public static final int text_subject=0x7f090022;
-        public static final int tu_ok=0x7f090020;
-        public static final int ture_ok=0x7f09001d;
+        public static final int rigs_start=0x7f090078;
+        public static final int select=0x7f09001a;
+        public static final int text_btn2=0x7f090079;
+        public static final int text_content=0x7f090043;
+        public static final int text_subject=0x7f090025;
+        public static final int title_Knowledge=0x7f090072;
+        public static final int title_chapter=0x7f09006e;
+        public static final int title_type=0x7f09006c;
+        public static final int tu_ok=0x7f090022;
+        public static final int ture_ok=0x7f090020;
+        public static final int txt_content=0x7f090042;
         public static final int username=0x7f090002;
         public static final int usernameEdittext=0x7f090003;
     }
@@ -173,36 +206,42 @@ public final class R {
         public static final int enroll=0x7f030007;
         public static final int input_error=0x7f030008;
         public static final int input_error1=0x7f030009;
-        public static final int main=0x7f03000a;
-        public static final int plan=0x7f03000b;
-        public static final int review_content=0x7f03000c;
-        public static final int review_set=0x7f03000d;
+        public static final int item=0x7f03000a;
+        public static final int main=0x7f03000b;
+        public static final int plan=0x7f03000c;
+        public static final int review_content=0x7f03000d;
+        public static final int start=0x7f03000e;
+        public static final int tixing=0x7f03000f;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int Analysis_Answer=0x7f05003e;
-        public static final int Answer_Analysis=0x7f05003f;
+        public static final int Analysis_Answer=0x7f05003f;
+        public static final int Answer_Analysis=0x7f050040;
         /**  write_one1 
          */
-        public static final int Error_Text=0x7f05003c;
+        public static final int Error_Text=0x7f05003d;
         /**  write_one 
          */
         public static final int Text_Date=0x7f050035;
-        public static final int Text_Error=0x7f05003d;
-        public static final int Text_Experience=0x7f050041;
-        public static final int Text_Keep=0x7f050042;
-        public static final int Text_Knowledge=0x7f05003a;
-        public static final int Text_Reason=0x7f050039;
-        public static final int Text_Section=0x7f050038;
+        public static final int Text_Error=0x7f05003e;
+        public static final int Text_Experience=0x7f050042;
+        public static final int Text_Keep=0x7f050043;
+        public static final int Text_Knowledge=0x7f05003b;
+        public static final int Text_Reason=0x7f05003a;
+        public static final int Text_Section=0x7f050039;
         public static final int Text_Time=0x7f050036;
-        public static final int Text_True=0x7f05003b;
+        public static final int Text_True=0x7f05003c;
         public static final int Text_add=0x7f050022;
         public static final int Text_analytic=0x7f05002f;
         /** 主界面  
          */
         public static final int Text_classify=0x7f050017;
+        public static final int Text_collate=0x7f05004c;
+        /**  review_content 
+         */
+        public static final int Text_content=0x7f050044;
         /**  class_hard 
          */
         public static final int Text_hard=0x7f050031;
@@ -210,6 +249,7 @@ public final class R {
          */
         public static final int Text_knowledge=0x7f050029;
         public static final int Text_master=0x7f050027;
+        public static final int Text_number=0x7f050047;
         /**  class_order 
          */
         public static final int Text_ordername=0x7f050025;
@@ -218,21 +258,19 @@ public final class R {
          */
         public static final int Text_type=0x7f05002d;
         public static final int Text_write=0x7f05001c;
-        public static final int Txt_Experience=0x7f050040;
+        public static final int Txt_Experience=0x7f050041;
         public static final int Txt_type=0x7f050037;
         public static final int action_settings=0x7f050001;
         public static final int analytic=0x7f050033;
         /**   登录界面 
          */
         public static final int app_name=0x7f050000;
-        public static final int b_ok=0x7f05002c;
-        public static final int back_ok=0x7f050044;
-        /**  review_content 
- review_set 
+        public static final int back_ok=0x7f050059;
+        /**  review_set 
  add_plan 
  add_back 
          */
-        public static final int back_view=0x7f050043;
+        public static final int back_view=0x7f050058;
         public static final int bt_ok=0x7f05002a;
         public static final int btn_back=0x7f050024;
         public static final int btn_cancle=0x7f05000f;
@@ -247,6 +285,7 @@ public final class R {
         public static final int btn_set=0x7f050021;
         public static final int btn_spot=0x7f050019;
         public static final int btn_wrong=0x7f05001a;
+        public static final int btreturn1=0x7f05002b;
         public static final int button_Chinese=0x7f050011;
         public static final int button_biology=0x7f050016;
         public static final int button_chemistry=0x7f050015;
@@ -255,6 +294,8 @@ public final class R {
         public static final int button_login=0x7f050003;
         public static final int button_math=0x7f050012;
         public static final int button_physics=0x7f050014;
+        public static final int collate_direction=0x7f05004f;
+        public static final int collate_way=0x7f05004d;
         public static final int en_phone=0x7f05000b;
         public static final int en_pwd=0x7f050009;
         public static final int en_repwd=0x7f05000a;
@@ -263,18 +304,34 @@ public final class R {
         /** 注册  
          */
         public static final int en_usernametext=0x7f050008;
-        public static final int master=0x7f05002b;
-        public static final int ok=0x7f050028;
+        public static final int error_Reason=0x7f050056;
+        public static final int login_date=0x7f050052;
+        public static final int login_time=0x7f050053;
+        public static final int login_way=0x7f05004e;
+        public static final int master=0x7f05002c;
+        public static final int order_down=0x7f050051;
+        public static final int order_rise=0x7f050050;
         public static final int pwd=0x7f050005;
+        public static final int radio_date=0x7f05004a;
+        public static final int radio_number=0x7f050048;
+        public static final int radio_year=0x7f050049;
         public static final int rig_ok=0x7f050034;
         public static final int right_ok=0x7f050032;
+        public static final int rigs_start=0x7f050046;
+        public static final int select=0x7f050028;
         public static final int student=0x7f050007;
         /**  选科界面 
          */
         public static final int subject=0x7f050010;
         public static final int teacher=0x7f050006;
+        public static final int text_btn2=0x7f050045;
+        public static final int title_Knowledge=0x7f050057;
+        public static final int title_chapter=0x7f050055;
+        public static final int title_start=0x7f05004b;
+        public static final int title_type=0x7f050054;
         public static final int tu_ok=0x7f050030;
         public static final int ture_ok=0x7f05002e;
+        public static final int txt_content=0x7f050038;
         public static final int username=0x7f050004;
     }
     public static final class style {

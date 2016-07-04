@@ -43,14 +43,14 @@ public class main extends Activity {
 		//bt5.setOnClickListener(Input_more);
 		bt6=(Button)findViewById(R.id.btn_one);
 		bt6.setOnClickListener(Input_error);
-		bt7=(Button)findViewById(R.id.btn_set);
-		bt7.setOnClickListener(review_set);
+		//bt7=(Button)findViewById(R.id.btn_set);
+		//bt7.setOnClickListener(review_set);
 		bt8=(Button)findViewById(R.id.btn_content);
-		bt8.setOnClickListener(review_content);
+		bt8.setOnClickListener(evalution);
 		bt9=(Button)findViewById(R.id.btn_back);
 		bt9.setOnClickListener(back);
 		bt10=(Button)findViewById(R.id.btn_plan);
-		bt10.setOnClickListener(plan);
+		bt10.setOnClickListener(Myplan);
 		
 	}
 	//跳转到章节
@@ -102,18 +102,18 @@ public class main extends Activity {
 					}
 				};*/
 		//跳转到复习评测
-		private Button.OnClickListener review_set = new Button.OnClickListener(){
+		/*private Button.OnClickListener review_set = new Button.OnClickListener(){
 			public void onClick(View v){
 				Intent intent=new Intent();
 				intent.setClass(main.this,review_set.class);
 				startActivity(intent);			
 			}
-		};
+		};*/
 		//跳转到复习内容
-		private Button.OnClickListener review_content = new Button.OnClickListener(){
+		private Button.OnClickListener evalution = new Button.OnClickListener(){
 			public void onClick(View v){
 				Intent intent=new Intent();
-				intent.setClass(main.this,review_content.class);
+				intent.setClass(main.this,evalution.class);
 				startActivity(intent);					
 			}
 		};
@@ -128,10 +128,10 @@ public class main extends Activity {
 		};
 		
 		// 
-		private Button.OnClickListener plan = new Button.OnClickListener(){
+		private Button.OnClickListener Myplan = new Button.OnClickListener(){
 			public void onClick(View v){
 				Intent intent=new Intent();
-				intent.setClass(main.this,plan.class);
+				intent.setClass(main.this,Myplan.class);
 				startActivity(intent);							
 			}
 		};

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <Button
+        android:id="@+id/btnreturn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/analogClock"
+        android:text="返回" />
+  <!-- 数字时钟控件 -->
+    <DigitalClock
+        android:id="@+id/digitalClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp" />
+  <!-- 模拟时钟控件 -->
+    <AnalogClock
+        android:id="@+id/analogClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/digitalClock"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp" />
+    <Button
+        android:id="@+id/btnqd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/digitalClock"
+        android:text="签到" />
+
+</RelativeLayout>
