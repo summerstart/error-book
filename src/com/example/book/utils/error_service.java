@@ -16,10 +16,10 @@ public class error_service {
 		public boolean entering(In_error error){
 			SQLiteDatabase sdb=terror.getReadableDatabase();
 			String sql="insert into Text_error1(error_date,error_time,type,section,reason," +
-					"knowledge,text,texterror,experience,analysis) values(?,?,?,?,?,?,?,?,?,?)";
+					"knowledge,text,texterror,experience,analysis,leveltext) values(?,?,?,?,?,?,?,?,?,?,?)";
 			Object obj[]={error.getDate(),error.getTime(),error.getType(),error.getSection(),
 					error.getReason(),error.getKnowledge(),error.getText(),error.getTexterror(),
-					error.getExperience(),error.getAnalysis()};
+					error.getExperience(),error.getAnalysis(),error.getLeveltext()};
 			sdb.execSQL(sql, obj);	
 			return true;
 		}
@@ -27,7 +27,7 @@ public class error_service {
 		//ÕÂ½ÚClass_order²éÑ¯ÓÃ
 		public boolean select(String textsection){
 			SQLiteDatabase sdb=terror.getReadableDatabase();
-			String sql="select texterror from  Text_error1 where section=?";
+			String sql="select text from  Text_error1 where section=?";
 			Cursor cursor=sdb.rawQuery(sql, new String[]{textsection});		
 			if(cursor.moveToFirst()==true){
 				cursor.close();

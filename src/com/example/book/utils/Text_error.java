@@ -16,7 +16,7 @@ public class Text_error extends SQLiteOpenHelper {
 		String sql="create table Text_error1(error_date date," +
 				"error_time time,type varchar(20),section varchar(100)," +
 	      "reason varchar(100),knowledge varchar(100),text varchar(100),texterror varchar(100)," +
-	      "experience varchar(100),analysis varchar(100))";
+	      "experience varchar(100),analysis varchar(100),leveltext varchar(100))";
 		db.execSQL(sql);
 	}
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {

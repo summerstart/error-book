@@ -58,6 +58,7 @@
     </string-array> 
        <string name="btn_ok">返回</string>
        <string name="Text_master">掌握程度分析</string>
+       <string name="text_select">查询</string>
      <string-array name="SpinnerTwo">  
        <item>完全不会</item>  
        <item>掌握较差</item>  
@@ -172,6 +173,14 @@
         <string name="Answer_Analysis">答案与分析</string>
         <string name="Txt_Experience">心得体会</string>
         <string name="Text_Experience">心得体会</string>
+      <string name="level">掌握程度</string>
+      <string-array name="SpinnerThirteen">  
+       <item>完全不会</item>  
+       <item>掌握较差</item>  
+       <item>基本掌握</item>  
+       <item>掌握较好</item> 
+       <item>完全掌握</item> 
+    </string-array>
         <string name="Text_Keep">保存</string>
       <!-- review_content -->
       <string name="Text_content">复习内容</string>

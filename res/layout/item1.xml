@@ -9,18 +9,5 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:text="错题正文"/>
-    <TextView 
-        android:layout_marginBottom="4dp"
-        android:id="@+id/item_list1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="心得体会"/>
-    <TextView 
-        android:layout_marginBottom="4dp"
-        android:id="@+id/item_list2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="答案与分析"
-        />
 
 </LinearLayout>
